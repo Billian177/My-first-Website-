@@ -1,6 +1,44 @@
-body{
-    background: black;
+html, body {
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  body {
+    background: url(Background/adi-goldstein-EUsVwEOsblE-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+  }
+  
+  h1{
+      text-align: center;
+      display: block;
+      color: green;
+  }
+  h2{
+    text-align: center;
+    display: block;
+    color: green;
 }
-img{
-    size: 20px;
+h3{
+    display: block;
+    color: green;
+    font-size: large;
 }
+  .wrapper {
+    background: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 40px;
+  }
+  .topnav{
+      display: block;
+      text-align: center;
+      background-color: green;
+      padding: 10px;
+      font-size: larger;
+      color: black;
+      ;
+  }
